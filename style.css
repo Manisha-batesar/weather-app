@@ -1,0 +1,173 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dcd3d3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  color: #ebfffc;
+  width: 44cqi;
+  height: 50cqi;
+  place-self: center;
+  background: linear-gradient(135deg, #1686bd, #009688);
+  margin-top: 2cqi;
+  border-radius: 5%;
+  padding: 2cqi 1cqi;
+  position: relative;
+  text-align: center;
+}
+
+.search {
+  position: absolute;
+  width: 35cqi;
+  align-items: center;
+}
+
+.search input {
+  border: 0;
+  outline: 0;
+  color: #555;
+  background: #ebfffc;
+  height: 3cqi;
+  border-radius: 1cqi;
+  font-size: 2cqi;
+  padding: 2cqi;
+  justify-content: space-between;
+}
+
+
+.search button {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  width: 5cqi;
+  height: 5cqi;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+}
+
+
+.search button img {
+  width: 2cqi;
+}
+
+.weather {
+  padding-top: 8cqi;
+
+}
+
+.weather .weather-icon {
+  width: 15cqi;
+}
+
+.weather h1 {
+  font-size: 4cqi;
+  font-weight: bolder;
+  margin-top: 2cqi;
+
+}
+
+.weather h2 {
+  font-size: 2cqi;
+  font-weight: bolder;
+  margin-top: 1cqi;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3cqi;
+  margin-top: 7cqi;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.col img {
+  margin-right: 1cqi;
+  width: 4cqi;
+}
+
+.col p {
+  font-size: 2cqi;
+  
+}
+
+.humidity,
+.wind {
+  font-size: 3cqi;
+  margin-bottom: 7px;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+  .card {
+    margin: auto;
+    width: 85cqi;
+    height: 110cqi;
+    margin-top: 9cqi;
+  }
+
+  .search button img {
+    width: 4cqi;
+  }
+
+  .search {
+    width: 80cqi;
+    align-items: center;
+  }
+  .search input{
+    padding: 4cqi ;
+    font-size: 4cqi;
+    text-align: center;
+  }
+  .search button{
+   height: 9cqi;
+   width: 10cqi;
+  }
+
+  .weather .weather-icon {
+    width: 30cqi;
+    margin-top: 10cqi;
+  }
+
+  .weather h1 {
+    margin-top: 7cqi;
+    font-size: 10cqi;
+  }
+
+  .weather h2 {
+    margin-top: 2cqi;
+    font-size: 6cqi;
+  }
+
+  .col img {
+    margin-right: 1cqi;
+    width: 9cqi;
+  }
+
+  .details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3cqi;
+    margin-top: 18cqi;
+  }
+
+  .col p {
+    font-size: 3cqi; 
+    font-weight: bolder;
+  }
+}
